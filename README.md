@@ -1,9 +1,9 @@
 # Magic-8-Ball
 
 <p align="center">
-<img align="left" src="scr1.png" height="30%" width="30%" alt=""/>
-<img align="center" src="scr2.png" height="30%" width="30%" alt=""/>
-<img align="right" src="scr3.png" height="30%" width="30%" alt=""/>
+<img align="left" src="screenshot1.png" height="30%" width="30%" alt=""/>
+<img align="center" src="screenshot2.png" height="30%" width="30%" alt=""/>
+<img align="right" src="screenshot3.png" height="30%" width="30%" alt=""/>
 
 
 </p>
