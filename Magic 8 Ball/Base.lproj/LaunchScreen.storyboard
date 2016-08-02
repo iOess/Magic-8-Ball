@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Magic 8 Ball" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tnA-zZ-1fS">
+                                <rect key="frame" x="154" y="271" width="293" height="58"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8Ball" translatesAutoresizingMaskIntoConstraints="NO" id="CZ1-0W-d8J">
+                                <rect key="frame" x="340" y="360" width="240" height="220"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="220" id="1ht-j8-MKC"/>
+                                    <constraint firstAttribute="width" secondItem="CZ1-0W-d8J" secondAttribute="height" multiplier="12:11" id="JHz-0N-BOf"/>
+                                    <constraint firstAttribute="width" constant="240" id="yvS-Qh-hPf"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1ht-j8-MKC"/>
+                                        <exclude reference="yvS-Qh-hPf"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.80000000000000004" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="tnA-zZ-1fS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KSF-SI-oVP"/>
+                            <constraint firstItem="tnA-zZ-1fS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="PCm-0E-MJ4"/>
+                            <constraint firstItem="CZ1-0W-d8J" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="TNR-u7-vSo"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="CZ1-0W-d8J" secondAttribute="bottom" constant="20" id="rmq-EL-aJ4"/>
+                            <constraint firstItem="CZ1-0W-d8J" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="2:5" id="sHR-9l-3pD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="8Ball" width="433" height="399"/>
+    </resources>
+</document>
