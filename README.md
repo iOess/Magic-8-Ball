@@ -1,4 +1,4 @@
-# Magic-8-Ball
+# Magic 8 Ball
 
 <p align="center">
 <img align="left" src="screenshot1.png" height="30%" width="30%" alt=""/>
